@@ -20,7 +20,7 @@ struct CreateAccount: View {
             NavigationLink {
                 Login()
             } label: {
-                Text(AppStrings.continu).foregroundStyle(.white).bold().frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/).padding().background(.blue.opacity(0.6)).clipShape(.rect(cornerRadius: 20)).padding(.top,20)
+                Text(AppStrings.signup).foregroundStyle(.white).bold().frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/).padding().background(.blue.opacity(0.6)).clipShape(.rect(cornerRadius: 20)).padding(.top,20)
             }
             
        
