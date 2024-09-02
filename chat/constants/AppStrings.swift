@@ -22,4 +22,6 @@ import Foundation
      static var terms:String = "Terms & Conditions"
      static var and:String = "and"
      static var privacy:String = " Privacy Policy"
+     static var dontHaveAcc:String = "Don't have an account?"
+     static var verificationCode:String = "Enter the verification code sent to your email to confirm your account"
 }
