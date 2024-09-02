@@ -15,8 +15,7 @@ struct VerificationView: View {
             
             Button(action: {
                 
-            }
-                   , label: {
+            }, label: {
               
                 Text("Continue").frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/).padding().background(.blue).foregroundColor(.white).clipShape(.rect(cornerRadius: 20))
             })

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7E1584ED2C8632080087712C /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1584EC2C8632080087712C /* VerificationView.swift */; };
+		7E1584EF2C8641C70087712C /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1584EE2C8641C70087712C /* OTPTextField.swift */; };
 		7ECBA7B32C7E6D46001E165B /* AppStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBA7B22C7E6D46001E165B /* AppStrings.swift */; };
 		7ECBA7B52C7E733A001E165B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBA7B42C7E733A001E165B /* Login.swift */; };
 		7ECEB9F72C7E2E77005813FD /* chatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECEB9F62C7E2E77005813FD /* chatApp.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		7E1584EC2C8632080087712C /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		7E1584EE2C8641C70087712C /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
 		7ECBA7B22C7E6D46001E165B /* AppStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStrings.swift; sourceTree = "<group>"; };
 		7ECBA7B42C7E733A001E165B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		7ECEB9F32C7E2E77005813FD /* chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +153,7 @@
 				7ECEBA212C7E322C005813FD /* CreateAccount.swift */,
 				7ECBA7B42C7E733A001E165B /* Login.swift */,
 				7E1584EC2C8632080087712C /* VerificationView.swift */,
+				7E1584EE2C8641C70087712C /* OTPTextField.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ECEB9F92C7E2E77005813FD /* ContentView.swift in Sources */,
+				7E1584EF2C8641C70087712C /* OTPTextField.swift in Sources */,
 				7ECBA7B52C7E733A001E165B /* Login.swift in Sources */,
 				7ECEBA222C7E322C005813FD /* CreateAccount.swift in Sources */,
 				7E1584ED2C8632080087712C /* VerificationView.swift in Sources */,
