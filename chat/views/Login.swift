@@ -20,14 +20,14 @@ struct Login: View {
             NavigationLink {
                 VerificationView().navigationTitle("Verification Code")
             } label: {
-                Text(AppStrings.signIn).foregroundStyle(.white).bold().frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/).padding().background(.blue.opacity(0.6)).clipShape(.rect(cornerRadius: 20)).padding(.top,20)
+                Text(AppStrings.signIn).foregroundStyle(.white).bold().frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/).padding().background(.blue).clipShape(.rect(cornerRadius: 20)).padding(.top,20)
             }
             
-            Text(AppStrings.forgotPassword).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/).font(.system(size: 16)).foregroundStyle(.blue.opacity(0.4)).frame( maxWidth: .infinity ,alignment: .center).padding(.top,20)
+            Text(AppStrings.forgotPassword).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/).font(.system(size: 16)).foregroundStyle(.blue.opacity(0.7)).frame( maxWidth: .infinity ,alignment: .center).padding(.top,20)
             Spacer()
             
             HStack(content: {
-                Text(AppStrings.dontHaveAcc).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/).font(.system(size: 16)).foregroundStyle(.gray.opacity(0.4)).padding(.top,20)
+                Text(AppStrings.dontHaveAcc).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/).font(.system(size: 16)).foregroundStyle(.gray).padding(.top,20)
                 Text(AppStrings.signup).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/).font(.system(size: 16)).foregroundStyle(.blue).padding(.top,20)
             }).frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
           
