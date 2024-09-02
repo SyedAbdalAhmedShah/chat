@@ -9,10 +9,18 @@ import SwiftUI
 
 struct VerificationView: View {
     var body: some View {
-        VStack(alignment: .trailing ,content: {
+        VStack( content: {
             Text(AppStrings.verificationCode).bold().padding(.horizontal,20)
             Spacer()
             
+            OTPTextField(numberOfFields: 6)
+            HStack(content: {
+                Text("Didn't get a code?").foregroundStyle(.gray).bold()
+                Text("Resend").foregroundStyle(.blue).bold()
+            }).padding(.top,20)
+         
+            
+            Spacer()
             Button(action: {
                 
             }, label: {
